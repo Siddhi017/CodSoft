@@ -1,0 +1,245 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+    position: sticky;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 26px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightNav {
+    width: 30%;
+    text-align: right;
+    padding: 0 30px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 90%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+}
+.text-big{
+    font-size: 27px;
+ }
+ 
+ .text-small{
+     font-size: 18px;
+ }
+ .btn{
+     padding: 8px 20px;
+     margin: 7px 3px;
+     border: 2px solid white;
+     border-radius: 8px;
+     background: none;
+     color: white;
+     cursor: pointer;
+     font-size: 20px;
+ }
+ .section{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 52px;
+}
+.intro{
+    padding: 0px 65px;
+    color: white;
+}
+
+.thumbnail{
+    width: 165%; 
+    padding-left: 140px; 
+}
+
+.thumbnail img{
+    width: 60%;
+    border: 2px solid black; 
+    border-radius: 16px;
+    margin: auto; 
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*skills section*/
+#skills{
+    margin: 80px;
+    display: flex;
+    padding-left: 150px;
+}
+#skills-container{
+    background-color: black;
+    height: 640px;
+}
+#skills-container h1{
+    color: white;
+    font-size: 115px;
+    height: 135px;
+    text-align: center;
+
+}
+#skills .box{
+    border: 2px solid white;
+    padding: 50px;
+    margin: 20px 20px;
+    border-radius: 28px;
+    background-color: white;
+    align-items: center;
+}
+  
+#skills .box p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#projects{
+    margin: 76px;
+    display: flex;
+    padding-left: 80px;
+}
+#projects-container{
+    height: 640px;
+    background-color: black;
+}
+#projects-container h1{
+    color: white;
+    font-size: 115px;
+    height: 135px;
+    text-align: center;
+
+}
+#projects .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 25px 6px;
+    border-radius: 28px;
+    background-color: rgb(250, 247, 247);
+}
+#projects .box img{
+    height: 136px;
+    margin: auto;
+    display: block;
+}
+#projects .box h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*contact section*/
+.contact{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.contact-content{
+    display: flex;
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+.contact-form-container{
+    width: 50%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .form-controls{
+    width: 80%;
+    padding: 10px 0;
+    margin: 1.67rem 0;
+}
+.contact-form .form-btn{
+    width: 83%;
+}
+.contact-details{
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+}
+/*footer section*/
+footer{
+    background-color: black;
+    color: white;
+   padding: 9px 538px;
+}
+.center{
+    align-items: center;
+}
